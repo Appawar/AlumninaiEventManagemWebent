@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+input {
+	outline: 1px solid lightblue;
+	box-shadow: 0 0 1px blue;
+	border: none;
+	height: 20px;
+	width: 180px;
+	border-radius: 2px;
+	margin-left: 15px;
+	margin-top: 3px;
+	font-size: 0.6em;
+}
+
+.loginInput {
+	width: 120px;
+	height: 20px;
+	margin-left: 45px;
+	background-color: black;
+	color: white;
+}
+
+.container {
+	width: 80%;
+	height: 429px;
+	margin: auto;
+	background-color: #DBDBDB;
+	margin-top: 1px;
+}
+
+.outer-circle {
+	width: 428px;
+	height: 428px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #ECE9E6;
+	border: 1px solid #ECE9E6;
+}
+
+.inner-circle {
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	border-radius: 50%;
+	margin-top: 39px;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+}
+
+.mainLogin {
+	width: 210px;
+	height: 270px;
+	margin: auto;
+	margin-top: 80px;
+	padding-top: 30px; border-radius : 15px;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+}
+
+.username-lable {
+	font-size: 0.5em;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.password-lable {
+	font-size: 0.5em;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.log-in-headding-name h1 {
+	font-size: 0.7em;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 13px;
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+}
+
+.left-side-div {
+	width: 200px;
+	height: 427px;
+	margin-right: -50px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: #ECE9E6;
+}
+
+.left-side-inner-div {
+	width: 160px;
+	height: 419px;
+	margin-top: 3px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: #F2F2F2;
+}
+
+.right-side-div {
+	width: 200px;
+	height: 427px;
+	margin-left: -50px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: #ECE9E6;
+}
+
+.right-side-inner-div {
+	width: 160px;
+	height: 419px;
+	margin-top: 3px;
+	margin-left: 40px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: #F2F2F2;
+}
+
+.mainLogin {
+	box-shadow: 5px 5px 5px lightblue;
+}
+
+.left-two-bar {
+	width: 200px;
+	height: 90px;
+	margin-top: 100px;
+	border: 2px solid green;
+}
+
+.left-three-bar {
+	width: 200px;
+	height: 45px;
+	margin-top: 50px;
+	border: 2px solid blue;
+}
